@@ -1,9 +1,11 @@
 import { app, BrowserWindow } from 'electron'
-import { createRequire } from 'node:module'
+/* import { createRequire } from 'node:module' */ // * Not used
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 
-const require = createRequire(import.meta.url)
+
+
+/* const require = createRequire(import.meta.url) */ // * Not used
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // The built directory structure
